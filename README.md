@@ -3,6 +3,8 @@
 
 **tls-trouble** is a cross-platform Go script designed to audit web security filters and bypass protocol-based detection. It utilizes **uTLS** to mimic high-fidelity browser fingerprints and strips **ALPN** extensions, allowing modern servers to downgrade to HTTP/1.1, bypasses binary protocol traps (HTTP/2) and JA3/JA3S/JA4 fingerprinting used by CDNs and WAFs.
 
+⚠️ **Please Note:** This project is strictly for **Educational and Authorized Penetration Testing**. I am not responsible for any of the shenanigans you guys pull.
+
 ## 🚀 Technical Overview
 
 Modern security solutions monitor the TLS handshake to identify automated scripts. This tool counters this by masking its identity as a legitimate browser and modifying the handshake negotiation.
