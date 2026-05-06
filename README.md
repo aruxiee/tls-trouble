@@ -1,5 +1,5 @@
 
-# tls-trouble: Protocol Stealth & Fingerprinting Engine
+# 🆘 tls-trouble: Protocol Stealth & Fingerprinting Engine
 
 **tls-trouble** is a cross-platform Go script designed to audit web security filters and bypass protocol-based detection. It utilizes **uTLS** to mimic high-fidelity browser fingerprints and strips **ALPN** extensions, allowing modern servers to downgrade to HTTP/1.1, bypasses binary protocol traps (HTTP/2) and JA3/JA3S/JA4 fingerprinting used by CDNs and WAFs.
 
