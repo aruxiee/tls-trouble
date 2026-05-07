@@ -109,3 +109,7 @@ Beyond data collection, **tls-trouble** also serves as a tool for Red Team and p
 *   **Headers:** Tweak the `reqStr` in Go to add custom cookies, referral headers, specific session tokens, etc. for site interaction.
 
 ---
+
+<p align="center">
+  With ❤️ by <b>Aradhya</b>
+</p>
